@@ -41,10 +41,10 @@
             // 
             this.BtnSave.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.BtnSave.Enabled = false;
-            this.BtnSave.Location = new System.Drawing.Point(0, 608);
-            this.BtnSave.Margin = new System.Windows.Forms.Padding(6);
+            this.BtnSave.Location = new System.Drawing.Point(0, 493);
+            this.BtnSave.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.BtnSave.Name = "BtnSave";
-            this.BtnSave.Size = new System.Drawing.Size(402, 35);
+            this.BtnSave.Size = new System.Drawing.Size(384, 28);
             this.BtnSave.TabIndex = 0;
             this.BtnSave.Text = "Save";
             this.BtnSave.UseVisualStyleBackColor = true;
@@ -59,10 +59,11 @@
             this.FlowPanel.Controls.Add(this.LblHint);
             this.FlowPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.FlowPanel.Location = new System.Drawing.Point(0, 2);
-            this.FlowPanel.MaximumSize = new System.Drawing.Size(420, 0);
-            this.FlowPanel.MinimumSize = new System.Drawing.Size(406, 600);
+            this.FlowPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FlowPanel.MaximumSize = new System.Drawing.Size(370, 0);
+            this.FlowPanel.MinimumSize = new System.Drawing.Size(370, 480);
             this.FlowPanel.Name = "FlowPanel";
-            this.FlowPanel.Size = new System.Drawing.Size(406, 600);
+            this.FlowPanel.Size = new System.Drawing.Size(370, 480);
             this.FlowPanel.TabIndex = 1;
             this.FlowPanel.WrapContents = false;
             // 
@@ -71,11 +72,11 @@
             this.LblHint.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.LblHint.LabelStyle = Krypton.Toolkit.LabelStyle.TitlePanel;
-            this.LblHint.Location = new System.Drawing.Point(110, 3);
-            this.LblHint.Margin = new System.Windows.Forms.Padding(110, 3, 3, 3);
-            this.LblHint.MinimumSize = new System.Drawing.Size(0, 500);
+            this.LblHint.Location = new System.Drawing.Point(88, 2);
+            this.LblHint.Margin = new System.Windows.Forms.Padding(88, 2, 2, 2);
+            this.LblHint.MinimumSize = new System.Drawing.Size(0, 400);
             this.LblHint.Name = "LblHint";
-            this.LblHint.Size = new System.Drawing.Size(201, 500);
+            this.LblHint.Size = new System.Drawing.Size(162, 400);
             this.LblHint.TabIndex = 0;
             this.LblHint.Values.Text = "Loading talents...";
             // 
@@ -87,17 +88,18 @@
             // SkillForm
             // 
             this.AcceptButton = this.BtnSave;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(402, 643);
+            this.ClientSize = new System.Drawing.Size(384, 521);
             this.Controls.Add(this.FlowPanel);
             this.Controls.Add(this.BtnSave);
             this.CornerRoundingRadius = 4F;
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MaximumSize = new System.Drawing.Size(420, 1000);
-            this.MinimumSize = new System.Drawing.Size(420, 690);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximumSize = new System.Drawing.Size(400, 808);
+            this.MinimumSize = new System.Drawing.Size(400, 560);
             this.Name = "SkillForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 

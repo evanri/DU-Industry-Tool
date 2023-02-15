@@ -34,7 +34,8 @@ namespace DU_Industry_Tool
                 var panel = new FlowLayoutPanel
                 {
                     WrapContents = false,
-                    AutoSize = true,
+//                  AutoSize = true,
+                    Size = new Size(350, 50),
                     Margin = new Padding(0)
                 };
                 if (applicableTalentsExist && Calculator.ApplicableTalents.Contains(talent.Name))
@@ -46,7 +47,7 @@ namespace DU_Industry_Tool
                     Text = talent.Name,
                     AutoSize = false,
                     Location = new Point(4, 12),
-                    Size = new Size(250, 30),
+                    Size = new Size(290, 30),
                     Margin = new Padding(4, 4, 4, 0),
                     TabStop = false
                 };
